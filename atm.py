@@ -15,7 +15,7 @@ while True:
             balance=balance+amount
             print("amount deposited.")
         else:
-            print("invalid amount.")
+            print("invalid amount..")
     elif choice=="3":
         amount=input("enter amount to withdraw:")
         if 0<amount<=balance:
