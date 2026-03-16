@@ -8,14 +8,14 @@ while True:
     print("4.exit")
     choice=input("enter your choice from 1-4:")
     if choice=="1":
-        print("your balance is:balance")
+        print("your balance is:balance :")
     elif choice=="2":
         amount=input("enter deposit amount:")
         if amount>0:
             balance=balance+amount
-            print("amount deposited")
+            print("amount deposited.")
         else:
-            print("invalid amount.")
+            print("invalid amount..")
     elif choice=="3":
         amount=input("enter amount to withdraw:")
         if 0<amount<=balance:
