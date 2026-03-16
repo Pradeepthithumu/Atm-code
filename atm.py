@@ -20,6 +20,6 @@ while True:
         amount=input("enter amount to withdraw:")
         if 0<amount<=balance:
             balance=balance-amount
-            print("amount withdrawn")
+            print("amount withdrawn.")
         else:
             print("insufficient balance . please deposite money into your account")
