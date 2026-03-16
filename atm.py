@@ -22,4 +22,4 @@ while True:
             balance=balance-amount
             print("amount withdrawn")
         else:
-            print("insufficient balance")
+            print("insufficient balance . please deposite money into your account")
